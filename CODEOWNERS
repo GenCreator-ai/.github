@@ -1,0 +1,14 @@
+# GenCreator (GenCreator-ai) — Organization Default CODEOWNERS
+# Website: https://gencreator.ai
+# Brand ID: gencreator | Governance Mode: active
+# Steward Agent: steward-gencreator
+# Executive Seat: CMO (Growth & Creator Distribution) + CCO (Creative)
+# Universal IS: Creator IS,Voice & Video IS,Brand IS,Sound / Music IS
+# Council Lead: starlight-envoy,starlight-music-ar,starlight-production
+# Primary Harnesses: Claude Code, Antigravity, Codex, Hermes
+#
+# Human approval gate (Maker != Checker invariant):
+* @frankxai
+/.github/ @frankxai
+/AGENTS.md @frankxai
+/SECURITY.md @frankxai
