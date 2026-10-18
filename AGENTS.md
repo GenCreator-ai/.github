@@ -1,9 +1,20 @@
-# GenCreator â€” Agent operating contract
+# GenCreator — Agent Operating Contract
 
-Scope: All repositories under the **GenCreator-ai** GitHub Organization.
-Brand register: `gencreator` (High-craft, practical, and output-driven. Every tool turns raw ideas into shipped articles, tracks, videos, and storefronts.)
+Scope: All repositories under the **GenCreator-ai** GitHub Organization (https://gencreator.ai).
+Brand register: `gencreator`
 
-## Core guardrails
+## Responsible Agent Team & Governance
+
+| Role | Assigned Owner |
+| :--- | :--- |
+| **Human Codeowner** | `@frankxai` |
+| **Organization Steward** | `steward-gencreator` |
+| **Executive Seat** | CMO (Growth & Creator Distribution) + CCO (Creative) |
+| **Universal IS** | Creator IS,Voice & Video IS,Brand IS,Sound / Music IS |
+| **Council Lead** | starlight-envoy,starlight-music-ar,starlight-production |
+| **Primary Harnesses** | `Claude Code`, `Antigravity`, `Codex`, `Hermes` |
+
+## Core Guardrails
 
 1. **Think before coding.** State assumptions and surface tradeoffs. Verify file contents and branch state before writing.
 2. **Surgical changes.** Touch only the files required for the active slice. Never overwrite or reset another agent's uncommitted worktree.
@@ -15,3 +26,18 @@ Brand register: `gencreator` (High-craft, practical, and output-driven. Every to
    - Preserve repository visibility parity: never copy or mirror private repository contents into a public repository.
    - Money fails closed; no autonomous spend or paid API provisioning without explicit human approval.
    - In health and mind domains, model observations only; never diagnose or make clinical claims.
+
+## Federated Repository Roster (8 repositories)
+
+| Repository | Visibility | Primary Owner | Role |
+| :--- | :--- | :--- | :--- |
+| `gencreator.ai` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/gencreator.ai) |
+| `GenCreator-OS` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/GenCreator-OS) |
+| `GenCreator-Studio` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/GenCreator-Studio) |
+| `agentic-creator-os` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/agentic-creator-os) |
+| `creator-skills` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/creator-skills) |
+| `creator-launch-os` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/creator-launch-os) |
+| `suno-mcp-server` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/suno-mcp-server) |
+| `starlight-creator-mcp` | `public` | `frankxai` | federated-mirror (SSOT: frankxai/starlight-creator-mcp) |
+
+Built on SIP
